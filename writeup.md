@@ -99,7 +99,7 @@ This is the single point of start of the image input or frame to be processed
 
 ####d. Image transform to grayscale
 The image is transformed to a grayscale one
-![alt text][image1]
+<p>![alt text][image1]</p>
 ####e. Gauss/Canny Filtering
 The image/frame is then filtered to obtain the borders as a preprocess to the hough transform
 <p><img src="./Output/edges.png" width="300"></p>
