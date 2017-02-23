@@ -95,7 +95,7 @@ This function receive the two coordinates of a line and return its lengths
 
 ####c. Read in an Image
 This is the single point of start of the image input or frame to be processed
-<img src="./test_images/solidWhiteRight.jpg" width="300">
+<p><img src="./test_images/solidWhiteRight.jpg" width="300"></p>
 
 ####d. Image transform to grayscale
 The image is transformed to a grayscale one
