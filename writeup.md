@@ -102,19 +102,19 @@ The image is transformed to a grayscale one
 ![alt text][image1]
 ####e. Gauss/Canny Filtering
 The image/frame is then filtered to obtain the borders as a preprocess to the hough transform
-<img src="./Output/edges.png" width="300">
+<p><img src="./Output/edges.png" width="300"></p>
 
 ####f. Image Masking
 To avoid innecesary noise and external elements, the image is masked with a closed polygon around the Region of Interest (ROI)
-<img src="./Output/mskdedges.png" width="300">
+<p><img src="./Output/mskdedges.png" width="300"></p>
 
 ####g. Hough Transform
 Now we are ready to apply the hough transform
-<img src="./Output/detected_lines.png" width="300">
+<p><img src="./Output/detected_lines.png" width="300"></p>
 
 ####h. Parameterizing the lines
 With the simplified image, now we parameterizied the lines detected usin the output of the hough_lines function. After that we make the histogram of the slopes to obtain the most likely line clasified by the sign of the slope.
-<img src="./Output/lineshist.png" width="300">
+<p><img src="./Output/lineshist.png" width="300"></p>
 
 ####i. Selecting the most probable lines
 The peak bin is selected and the lines within this range are extracted.
@@ -124,7 +124,7 @@ To obtain an unique line, the selected lines are added but weigthed based on the
 
 ####k. Draw the resulted lines
 Finally the 2 resulting lines are overimposed on the original image
-<img src="./Output/finalresult.png" width="300">
+<p><img src="./Output/finalresult.png" width="300"></p>
 
 ###2. Identify potential shortcomings with your current pipeline
 
